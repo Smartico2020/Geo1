@@ -38,7 +38,7 @@ namespace GmapTest
         private void button1_Click(object sender, EventArgs e)
         {
             gMapControl1.MapProvider = GMap.NET.MapProviders.GoogleMapProvider.Instance;
-            gMapControl1.Refresh();
+            gMapControl1.Refresh();//
         }
     }
 }
